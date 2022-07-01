@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{689C7DB3-FF72-4FD9-9697-A3E16161DED8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{689C7DB3-FF72-4FD9-9697-A3E16161DED8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingPizza", "BlazingPizza\BlazingPizza.csproj", "{ED8DD704-E59A-47B4-A45F-1F8BDB2092B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp2-Pizza", "BlazorApp2-Pizza\BlazorApp2-Pizza.csproj", "{A0772891-BD1D-482C-BB61-F5633DAA4A6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{689C7DB3-FF72-4FD9-9697-A3E16161DED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{689C7DB3-FF72-4FD9-9697-A3E16161DED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{689C7DB3-FF72-4FD9-9697-A3E16161DED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED8DD704-E59A-47B4-A45F-1F8BDB2092B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED8DD704-E59A-47B4-A45F-1F8BDB2092B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED8DD704-E59A-47B4-A45F-1F8BDB2092B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED8DD704-E59A-47B4-A45F-1F8BDB2092B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0772891-BD1D-482C-BB61-F5633DAA4A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0772891-BD1D-482C-BB61-F5633DAA4A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0772891-BD1D-482C-BB61-F5633DAA4A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0772891-BD1D-482C-BB61-F5633DAA4A6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
