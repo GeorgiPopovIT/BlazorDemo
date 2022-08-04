@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp1", "BlazorApp1\Bl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingPizza", "BlazingPizza\BlazingPizza.csproj", "{ED8DD704-E59A-47B4-A45F-1F8BDB2092B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp2-Pizza", "BlazorApp2-Pizza\BlazorApp2-Pizza.csproj", "{A0772891-BD1D-482C-BB61-F5633DAA4A6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp2-Pizza", "BlazorApp2-Pizza\BlazorApp2-Pizza.csproj", "{A0772891-BD1D-482C-BB61-F5633DAA4A6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

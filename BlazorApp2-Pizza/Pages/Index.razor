@@ -25,11 +25,8 @@ else
 			@foreach (var pizza in todaysPizzas)
 			{
 				<tr>
-					<td>@pizza.Name</td>
-					<td>@pizza.Description</td>
-					<td>@pizza.Vegetarian</td>
-					<td>@pizza.Vegan</td>
-					<td>@pizza.Price</td>
+					<td>@pizza.PizzaName</td>
+					<td>@pizza.PizzaDescription</td>
 				</tr>
 			}
 		</tbody>
@@ -37,12 +34,12 @@ else
 }
 
 @code {
-	private Pizza[]? todaysPizzas;
+    private Pizza[]? todaysPizzas;
 
-	protected override async Task OnInitializedAsync()
-	{
-		todaysPizzas = await PizzaSvc.GetPizzasAsync();
-	}
+    protected override async Task OnInitializedAsync()
+    {
+        todaysPizzas = await PizzaSvc.GetPizzasAsync();	
+    }
 }
 
 

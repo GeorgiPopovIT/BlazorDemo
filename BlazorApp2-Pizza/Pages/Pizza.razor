@@ -1,0 +1,17 @@
+﻿@using BlazorApp2_Pizza.Data
+
+<h2>New Pizza: @PizzaName</h2>
+
+<h2>New Topping: @Topping.Name</h2>
+
+<p>Ingredients: @Topping.Ingredients</p>
+
+@code {
+	[Parameter]
+	public string? PizzaName { get; set; }
+
+	public string PizzaDescription { get; set; } = "The best pizza!";
+
+	[Parameter]
+    public PizzaTopping Topping { get; set; }
+}
